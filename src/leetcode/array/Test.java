@@ -53,7 +53,7 @@ public class Test {
         int miniSum = MiniPathSum_64.miniPathSum(new int[][]{{7,2},{6,6},{8,7},{5,0},{6,0}});
         System.out.println(miniSum);*/
 
-        System.out.println("============================HouseRobber========================================");
+       /* System.out.println("============================HouseRobber========================================");
         int robGet = HouseRobber.rob(new int[]{226,174,214,16,218,48,153,131,128,17,157,142,88,43,37,157,43,221
                 ,191,68,206,23,225,82,54,118,111,46,80,49,245,63,25,194,72,80,143,55,209,18,55,122,65,66
                });
@@ -61,7 +61,24 @@ public class Test {
 
         System.out.println(HouseRobber.dynamicCalculate(new int[]{226,174,214,16,218,48,153,131,128,17,157,142,88,43,37,157,43,221
                 ,191,68,206,23,225,82,54,118,111,46,80,49,245,63,25,194,72,80,143,55,209,18,55,122,65,66
-               }));
+               }));*/
+
+      /*  System.out.println("================================== MaxArea========================================");
+        int[] maxAreaArr = new int[]{1,8,6,2,5,4,8,3,7};
+        System.out.println(MaxArea.maxArea(maxAreaArr));*/
+
+       /* System.out.println("===== =================================FindLongestSubString=========================================");
+        System.out.println(LengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb"));
+
+        System.out.println("=======================================IsUgly=======================================================");
+        System.out.println(IsUgly_263.isUgly(0));
+        System.out.println(Math.pow(-2,31));*/
+
+        System.out.println("=========================ProductExceptSelf=====================================");
+        int[] result = ProductExceptSelf.productExceptSelf(new int[]{1,2,3,4});
+        for(int i = 0; i < result.length; i++ ) {
+            System.out.print(result[i] + " ");
+        }
 
     }
 
