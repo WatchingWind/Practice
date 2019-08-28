@@ -2,6 +2,7 @@ package wanzhuanshujujiegou.tree;
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.PriorityQueue;
 import java.util.Random;
 
@@ -100,5 +101,6 @@ public class MaxHeap<E extends Comparable<E>> {
         System.out.println(r.nextInt(10));
         System.out.println(r.nextInt(10));
         Math.random();
+
     }
 }

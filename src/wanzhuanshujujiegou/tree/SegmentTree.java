@@ -32,6 +32,15 @@ public class SegmentTree <E>{
         tree[treeIndex] = (E)merger.merge(tree[leftTreeIndex],tree[rightTreeIndex]);
     }
 
+    public E query(int queryL,int queryR){
+
+        return null;
+    }
+
+    private E query(int treeIndex,int l, int r, int queryL, int queryR){
+        return null;
+    }
+
     public E get(int index){
         if(index < 0 || index >= data.length ) {
             throw new RuntimeException("index is illegal");

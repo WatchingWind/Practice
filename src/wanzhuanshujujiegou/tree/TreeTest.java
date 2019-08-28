@@ -32,6 +32,17 @@ public class TreeTest {
         Test test = t.new Test();
         test.testThis();
 
+
+        System.out.println("====================================================SegmentTree============================ ");
+        Integer[] nums = {-2,0,3,-5,2,1};
+        SegmentTree<Integer> segmentTree = new SegmentTree<>(nums, new Merge<Integer>() {
+            @Override
+            public Integer merge(Integer e1, Integer e2) {
+                return e1 + e2;
+            }
+        });
+
+
     }
 
     public static boolean test (){
